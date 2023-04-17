@@ -1,0 +1,41 @@
+.calc{
+    width: 375px;
+    height: 450px;
+    border: solid 2px;
+    background: orangered;
+}
+.ans{
+    margin-left: 30px;
+    width: 80%;
+    height: 40px;
+    pointer-events: none;
+    text-align: right;
+    background: grey;
+    border: solid 1px;
+    font-size: 50px;
+    color: black;
+    
+}
+#hist{
+    border-bottom-color: grey;
+    margin-top: 20px;
+}
+#ans{
+    border-top: none;
+    border-top-color: grey;
+    
+}
+.button{
+    width: 50px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 7px;
+    font-size: 25px;
+}
+.table{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#clear{
+    width: 65px;
+}

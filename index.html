@@ -1,0 +1,93 @@
+<!!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="main" >
+    <h1>Calculater</h1>
+    
+    <div class="calc">
+        <p></p>    
+    
+    <div class="output">
+        <input class="ans" id="hist" type="text" value="">
+        <input class="ans" id="ans" type="text" value="">
+    </div>
+    <table class="table">
+        <tr>
+            <td>
+                <button class="button"onclick="clickedBut('7')">7</button>
+            </td>
+            <td>
+                <button class="button"onclick="clickedBut('8')">8</button>
+            </td>
+            <td>
+                <button class="button"onclick="clickedBut('9')">9</button>
+            </td>
+            <td>
+                <button class="button"onclick="operation('/')">/</button>
+            </td>
+            <td>
+               
+        </tr>
+         <tr>
+            <td>
+                <button class="button"onclick="clickedBut('4')">4</button>
+            </td>
+            <td>
+                <button class="button"onclick="clickedBut('5')">5</button>
+            </td>
+            <td>
+                <button class="button"onclick="clickedBut('6')">6</button>
+            </td>
+            <td>
+                <button class="button"onclick="operation('*')">X</button>
+            </td>
+            <td>
+               
+        </tr>
+  <tr>
+            <td>
+                <button class="button"onclick="clickedBut('1')">1</button>
+            </td>
+            <td>
+                <button class="button"onclick="clickedBut('2')">2</button>
+            </td>
+            <td>
+                <button class="button"onclick="clickedBut('3')">3</button>
+            </td>
+            <td>
+                <button class="button"onclick="operation('+')">+</button>
+            </td>
+            <td>
+               
+        </tr>
+  <tr>
+            <td>
+                <button class="button"onclick="clickedBut('.')">.</button>
+            </td>
+            <td>
+                <button class="button"onclick="clickedBut('0')">0</button>
+            </td>
+            <td>
+                <button class="button"onclick="answer()">=</button>
+            </td>
+            <td>
+                <button class="button"onclick="operation('-')">-</button>
+            </td>
+            <td>
+                <button class="button" id="clear" onclick="clearAll()">clear</button>
+            </td>
+               
+        </tr>
+ 
+    </table>
+    
+    </div>
+</body>
+</html>
